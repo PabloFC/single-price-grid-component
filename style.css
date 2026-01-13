@@ -125,3 +125,14 @@ body {
   opacity: 0.85;
   padding-right: 0;
 }
+
+@media (max-width: 600px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+    margin: 24px;
+  }
+  .community h1 {
+    font-size: 24px;
+  }
+}
